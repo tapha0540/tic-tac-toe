@@ -1,0 +1,20 @@
+    - A tictactoe game made using gtk libray
+    to excecute the game on linux run this command
+    fisrt, install gtk by running
+    '''bash
+        sudo apt update
+        sudo apt install libgtk-3-dev
+    '''
+    Install other necessary packages (optional, but recommended for building).
+    '''bash
+        sudo apt install build-essential
+    '''
+    Compile the game
+    '''bash
+        gcc src/tic_tac_toe.c `pkg-config --cflags --libs gtk+-3.0` -o build/game
+    '''
+    Run the game
+    '''bash
+        build/game
+    '''
+
