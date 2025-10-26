@@ -1,4 +1,4 @@
-	![A screenShot of the game](images/screenshot-1)
+	![A screenShot of the game](/images/screenshot-1)
  - A tictactoe game made using gtk libray
     to excecute the game on linux run this command
     first, install gtk by running
