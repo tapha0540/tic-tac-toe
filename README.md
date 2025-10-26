@@ -1,4 +1,4 @@
-    - A tictactoe game made using gtk libray
+ A tictactoe game made using gtk libray
     to excecute the game on linux run this command
     fisrt, install gtk by running
     '''bash
